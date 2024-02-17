@@ -1,4 +1,2 @@
 # fiif
-"Fast Install If Found" is a program that checks all commands used in an alias and tries to find and install them if it can find them in the appropriate repos
-
-A personal project to make setting up dev environments with my preferred tools easier. Will support Debian (through apt, sorry apt-get people) and Arch, btw (through pacman)
+"Fast Install If Found" is a shell/bash script that checks all commands used in any sourced aliases (i.e. ~/.bashrc) and if that command doesn't exist on your system, it tries to find and install them if it can find them in the appropriate repos. This is similar to the default behavior in Ubuntu I believe, but as I'm trying to get away from Ubuntu personally I would like the functionality to be available on all of my systems.
